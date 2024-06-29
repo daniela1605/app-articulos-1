@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="centrado">
+    <div class="card" style="width: 32rem;">
+      <div class="card-body">
+        <h1 class="text-center mt-3"> Cargar artículo</h1>
+        <form class="formulario mt-4">
+          <div class=" campo mb-4 campo-select">
+            <select class="form-select form-select-lg mb-3">
+              <option selected>Tipo de Subsistema</option>
+              <option value="1">Universidad Tecnológica</option>
+              <option value="2">Universidad Politécnica</option>
+              <option value="3">Instituto Tecnológico</option>
+            </select>
+            <i class="fa-solid fa-building-columns icono"></i>
+          </div>
+
+          <div class=" campo mb-4">
+            <input class="form-control " id="titulo" placeholder="Titulo del articulo" />
+            <i class="fa-solid fa-book icono"></i>
+          </div>
+
+          <div class=" campo mb-4">
+            <input class="form-control " id="autor" placeholder="Autor" />
+            <i class="fa-solid fa-user icono"></i>
+          </div>
+
+          <div class=" campo mb-4 text-area">
+            <textarea class="form-control " placeholder="Breve resumen del articulo" id="resumen"
+              style="height: 100px"></textarea>
+            <i class="fa-solid fa-book-open icono"></i>
+
+          </div>
+
+          <div class=" campo mb-4">
+            <input type="file" class="form-control" id="archivo" placeholder="Elegir archivo"/>
+            <i class="fa-solid fa-file icono"></i>
+          </div>
+
+          <div class="d-grid gap-2">
+            <button type="submit" class="btn boton  btn-block">Cargar archivo</button>
+          </div>
+
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #8eaceb;
+}
+
+.centrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.texto-centrado {
+    text-align: center;
+}
+
+.boton {
+    background-color: #1b2437;
+    color: white;
+}
+
+.campo {
+    position: relative;
+}
+
+.campo input {
+    padding-left: 4rem;
+}
+
+.campo i {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.campo-select select {
+    padding-left: 4rem;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.icono {
+    color: #c1c1c1;
+}
+
+.text-area i {
+    position: absolute;
+    left: 1rem;
+    top: 80%;
+    transform: translateY(-50%);
+}
+
+.card {
+    border-radius: 10px; /* Puedes ajustar el valor según tus preferencias */
+    /* Otros estilos de la tarjeta aquí */
+}
+body{
+    background: #11998e;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   }
